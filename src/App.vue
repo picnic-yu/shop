@@ -1,11 +1,16 @@
 <template>
 	<div class='app'>
-		222
+		<!-- 路由组件 -->
+		<router-view></router-view>
+		<FooterGuide></FooterGuide>
 	</div>
 </template>
 <script>
+import FooterGuide from './components/FooterGuide/FooterGuide'
 export default {
-	
+	components:{
+		FooterGuide
+	}	
 }
 </script>
 <style lang="stylus">
